@@ -218,6 +218,6 @@ def main():
 
 
 if __name__ == "__main__":
-    translate_file_in_path()
+    main()
 
 

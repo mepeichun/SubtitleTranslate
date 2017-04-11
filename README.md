@@ -1,5 +1,6 @@
 # SubtitleTranslate
 This is a script that translate the English *.srt file to Chinese&amp;English *.srt by using Google Translate
+
 ##用途
 
 * 一键将Coursera的字幕翻译成中英文字幕
@@ -8,14 +9,15 @@ This is a script that translate the English *.srt file to Chinese&amp;English *.
 * 刚开始在Coursera学习的时候用过一下
 * 本人已不再使用该脚本，未进行更新。还是看全英的比较好
 
-
 ##使用方法
 
 * 修改路径，运行即可
 
-
 ##已知bug
+
 * 少数情况下会翻译错误，原因未知
+
+
 ##关于作者
 
 ```python

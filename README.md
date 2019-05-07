@@ -1,6 +1,6 @@
 # SubtitleTranslate
-用于翻译纯英文的字幕.srt文件，将文件翻译成中文加英文的字幕
-当初写只是用于娱乐
+Translate English subtilte into other language.
+Only support \*.srt file currently.
 
 ## 翻译效果
     00:00:00,025 --> 00:00:03,403

@@ -58,7 +58,7 @@ Original subtitle:
     developers since
     the dawn of computing.
 
-Tranlate into Chinese:
+Translate into Chinese:
 
     1
     00:00:00,000 --> 00:00:02,430
@@ -69,7 +69,7 @@ Tranlate into Chinese:
     一直是开发人员的必需品。
     developers since the dawn of computing. 
  
- Tranlate into Japanese:
+ Translate into Japanese:
  
      1
     00:00:00,000 --> 00:00:02,430

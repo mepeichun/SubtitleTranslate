@@ -2,14 +2,25 @@
 Translate English subtilte into other language.
 Only support \*.srt file currently.
 
-## 翻译效果
-    00:00:00,025 --> 00:00:03,403
-    Hi, my name's Tim Roughgarden. I'm a professor here at Stanford University
-    嗨，我叫Tim Roughgarden。我是斯坦福大学的教授嗨，我叫Tim，斯坦
+## Prerequisite
 
-    00:00:03,403 --> 00:00:06,283
-    And I'd like to welcome you to this first course on the
-    福大学的一名教授我想你欢迎来到第一次的算法设计和分析课程。
+    pip install pyexecjs
+    pip install srt
+
+if you are from China, please install jieba
+
+    pip install jieba
+
+## How do it works
+* parse \*.srt file into subtitle by *third party library srt* 
+* split subtitle into sentences.
+* translate sentences by Google Translate.
+* split sentences into dialogues.
+* merge original subtitle and translated subtitle
+
+## Example
+
+
 
 ## 工作原理
 * 利用谷歌翻译实现，使用前请安装*pyexecjs*库，使用*pip install pyexecjs*进行安装即可

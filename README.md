@@ -48,6 +48,7 @@ translate_and_compose(input_file, 'sample_en_ja_both.srt', 'en', 'ja')
 ## More
 
 Original subtitle:
+
     1
     00:00:00,000 --> 00:00:02,430
     Coding has been
@@ -58,6 +59,7 @@ Original subtitle:
     the dawn of computing.
 
 Tranlate into Chinese:
+
     1
     00:00:00,000 --> 00:00:02,430
     自计算机开始以来，编码
@@ -68,6 +70,7 @@ Tranlate into Chinese:
     developers since the dawn of computing. 
  
  Tranlate into Japanese:
+ 
      1
     00:00:00,000 --> 00:00:02,430
     コーディングは、コンピューティングの夜

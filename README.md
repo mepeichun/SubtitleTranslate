@@ -112,7 +112,9 @@ translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN', mode='
 If one sentence may be splitted into multiple lines in the srt file. Please use *mode='split'*
 
 ### about the target language
-    Explore more google translate supported language please visit: https://cloud.google.com/translate/docs/languages
+
+Explore more google translate supported language please visit: https://cloud.google.com/translate/docs/languages
+
         Afrikaans	af      Albanian	sq      Amharic	am      Arabic	ar      Armenian	hy      Azerbaijani	az
         Basque	eu          Belarusian	be      Bengali	bn      Bosnian	bs      Bulgarian	bg      Catalan	ca
         Cebuano	ceb         Chinese(Simplified)	zh-CN           Chinese (Traditional)	zh-TW

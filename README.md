@@ -88,7 +88,7 @@ Translate into Chinese:
  
     translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN', encoding='UTF-8-sig')
  
- ### There two tanslation mode. 
+ ### There two tanslation modes. 
  
  If your srt file is well-splitted like:
  
@@ -111,7 +111,7 @@ translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN', mode='
 ```
 If one sentence may be splitted into multiple lines in the srt file. Please use *mode='split'*
 
-### about the target language
+### About the target language
 
 Explore more google translate supported language please visit: https://cloud.google.com/translate/docs/languages
 

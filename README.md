@@ -12,7 +12,7 @@ if you are from China, please install jieba
 
     pip install jieba
 
-## How do it works
+## How does it work
 * parse \*.srt file into subtitle by *third party library srt* 
 * split subtitle into sentences.
 * translate sentences by Google Translate.

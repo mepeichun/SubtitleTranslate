@@ -82,7 +82,7 @@ Translate into Chinese:
  
  ## Adavance
  
- ### If you meet some problem in *srt.parse()*
+ ### If you meet some problems in *srt.parse()*
  
  Try another encoding method, like encoding='UTF-8-sig'
  
@@ -96,7 +96,7 @@ Translate into Chinese:
     00:00:00,000 --> 00:00:04,290
     Coding has been the bread and butter for developers since the dawn of computing.
 
- Well-splitted means each line is a sentence.
+ Well-splitted means each line in the srt file is a complete sentence. (This would perform better.)
  
  So, you should use:
  
@@ -109,7 +109,7 @@ input_file = "sample.en.srt"
 # translate_and_compose(input_file, output_file, src_lang, target_lang, encoding='UTF-8', mode='split', both=True, space=False)
 translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN', mode='naive')
 ```
-If one sentence may be splitted into multiple lines in the srt file. Please use *mode='split'*
+If one sentence may be splitted into multiple lines in the srt file. Please use *mode='split'*. The code will first try to translate as many subtitles as possible, and then try to re-split the srt file into the target language.
 
 ### About the target language
 
